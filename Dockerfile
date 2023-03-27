@@ -1,5 +1,5 @@
 FROM centos:latest
-LABEL email_id="brand293245222@gmail.com" 
+# LABEL email_id="brand293245222@gmail.com" 
 RUN yum install -y httpd \
   zip \
   unzip
