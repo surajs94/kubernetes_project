@@ -1,6 +1,6 @@
 FROM centos:latest
-LABEL email_id="brand293245222@gmail.com" 
-RUN yum -y install httpd  \
+# LABEL email_id="brand293245222@gmail.com" 
+RUN yum install -y httpd  \
   zip \
   unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page247/kindle.zip /var/www/html/
