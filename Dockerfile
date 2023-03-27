@@ -11,5 +11,5 @@ WORKDIR /var/www/html
 RUN unzip shine.zip
 RUN cp -rvf shine/* .
 RUN rm -rf shine shine.zip
-CMD ["/usr/sbin/httpd", "-D", "FOREGROUND" ]
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
